@@ -86,7 +86,7 @@ function HeroPage() {
   
 
   return (
-    <div className="min-h-screen bg-gray-50 pl-20 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50  dark:bg-gray-900">
       {/* Hero Section with Schemes Slider */}
       <div className="relative h-[600px] overflow-hidden ">
         <div 

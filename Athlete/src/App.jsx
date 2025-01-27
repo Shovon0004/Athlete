@@ -1,18 +1,27 @@
-import { useState } from 'react'
-import SideNavbar from './components/SideNavbar'
-import HeroPage from './components/HeroPage'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SideNavbar from './components/SideNavbar';
+import EditableFinanceDashboard from './components/EditableFinanceDashboard';
+import HeroPage from './components/HeroPage';
 
-import './App.css'
 
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-      <SideNavbar />
-      <HeroPage />
-    </>
-  )
-}
+    <Router>
+      <div className="flex">
+        <SideNavbar />
+        
+        <div className="ml-20 flex-grow ">
+          <Routes>
+            <Route path="/" element={<HeroPage />} />
+            <Route path="/financial" element={<EditableFinanceDashboard />} />
+         
+            {/* Add other routes as needed */}
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;

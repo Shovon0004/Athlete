@@ -28,7 +28,7 @@ const SideNavbar = () => {
         {/* Logo & Toggle */}
         <div className="flex items-center justify-between p-4  border-orange-700">
           {isExpanded && (
-            <div className="text-xl font-bold">Athlete Hub</div>
+            <div className="text-xl font-bold">Khiladi</div>
           )}
           <button 
             onClick={() => setIsExpanded(!isExpanded)}
