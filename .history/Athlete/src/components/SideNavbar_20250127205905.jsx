@@ -13,9 +13,9 @@ const SideNavbar = () => {
 
   const navItems = [
     { icon: Home, label: 'Dashboard', href: '/' },
-    { icon: User, label: 'Athletes', href: '/athletes' },
+    { icon: User, label: 'Athletes', href: '/EditableFinanceDashboard' },
     { icon: BarChart2, label: 'Performance', href: '/performance' },
-    { icon: Shield, label: 'Injuries', href: '/Medical' },
+    { icon: Shield, label: 'Injuries', href: '/injuries' },
     { icon: DollarSign, label: 'Financial', href: '/financial' }
   ];
 

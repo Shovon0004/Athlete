@@ -15,7 +15,7 @@ const SideNavbar = () => {
     { icon: Home, label: 'Dashboard', href: '/' },
     { icon: User, label: 'Athletes', href: '/athletes' },
     { icon: BarChart2, label: 'Performance', href: '/performance' },
-    { icon: Shield, label: 'Injuries', href: '/Medical' },
+    { icon: Shield, label: 'Injuries', href: '/' },
     { icon: DollarSign, label: 'Financial', href: '/financial' }
   ];
 

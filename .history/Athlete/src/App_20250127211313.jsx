@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SideNavbar from './components/SideNavbar';
 import EditableFinanceDashboard from './components/EditableFinanceDashboard';
 import HeroPage from './components/HeroPage';
-import Medical from './components/Medical';
 
 const App = () => {
   return (
@@ -11,12 +10,9 @@ const App = () => {
       <div className="flex">
         <SideNavbar />
         
-        <div className="ml-20 flex-grow ">
+        <div className="ml-20 flex-grow p-4">
           <Routes>
-            <Route path="/" element={<HeroPage />} />
             <Route path="/financial" element={<EditableFinanceDashboard />} />
-            <Route path="/medical" element={<Medical />} />
-         
             {/* Add other routes as needed */}
           </Routes>
         </div>

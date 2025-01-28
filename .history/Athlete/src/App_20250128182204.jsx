@@ -15,7 +15,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HeroPage />} />
             <Route path="/financial" element={<EditableFinanceDashboard />} />
-            <Route path="/medical" element={<Medical />} />
          
             {/* Add other routes as needed */}
           </Routes>
